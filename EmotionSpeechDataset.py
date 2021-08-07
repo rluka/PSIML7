@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 audio_duration = 3
-sampling_rate = 22050*2
+sampling_rate = 22050
 input_length = sampling_rate * audio_duration
 
 class EmotionSpeechDataset(Dataset):
